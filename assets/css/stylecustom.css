@@ -1,0 +1,83 @@
+/* Inicio style comun a todos los modulos */
+    .navbar{ background: #004c85;}  
+    body{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 4em;
+      }
+    .main-content{
+        flex-grow: 1; 
+    }
+    
+/* Fin style comun a todos los modulos */
+
+/* Inicio style comun a todos los modulos tamaño != pc */
+    @media (max-width : 580px){
+            #logoEncabezadoWeb{
+            	width: 25% !important;
+            	height: auto !important;        	
+            }
+
+            #tituloWeb {
+            	font-size: 0.8em !important;
+            	padding-left: 8px !important;
+            	padding-top: 15px !important;
+            }
+
+            .card-title{
+            	font-size: 0.7em !important;
+            }
+
+            .card-text{
+            	font-size: 0.6em !important;
+            }
+    }
+/* Fin style comun a todos los modulos tamaño != pc */
+
+/* Inicio styles predeterminados */
+    .bg-azul{
+        background: #3366cc;
+    }
+    .bg-naranja{
+        background: #ff9933;
+    }
+    .txt-azul{
+        color: #3366cc;
+    }
+    .txt-naranja{
+        color: #ff9933;
+    }
+    .brd-azul{
+        border-color: #3366cc;
+    }
+    .brd-naranja{
+        border-color: #ff9933!important;
+    }
+    .colorNaranja {
+        color: #2b2723;
+        background-color: #ff9933;
+        border-color: #ff9933;
+    }    
+/* Fin styles predeterminados */
+
+/* Inicio style modulo rrhh */
+    /* Inicio validacion formularios */
+        span.mensajeerrorfondoazul{ color: #363636; font-size: 0.9em; font-style:italic;font-weight:bold;}
+    /* Fin validacion formularios */
+/* Fin style modulo rrhh */
+
+/* Inicio style para manejo de errores */
+    .alturaLineaErrorTitulo{
+        line-height: 1.2em;
+    }
+    .alturaLineaError{
+        font-size: 0.9em;
+        line-height: 0.8em;   
+    }
+/* Fin style para manejo de errores */
+
+
+
+
